@@ -28,7 +28,7 @@ function entryValidation(input, maxInput){
 // Año en curso, se utiliza para calcular los años de inversión y próximamente graficarlo.
 const CURRENT_YEAR = new Date().getFullYear();
 
-let userYearsInvest = parseInt(prompt("ingresa la cantidad de años de inversión. De 1 a 10 años, ejemplo: 4"));
+let userYearsInvest = (prompt("ingresa la cantidad de años de inversión. De 1 a 10 años, ejemplo: 4"));
 let validationYears = entryValidation(userYearsInvest, 10);
 // console.log(entryValidation(userYearsInvest, 10));
 
